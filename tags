@@ -1,0 +1,199 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$BASH_ENV	.vimrc	/^let $BASH_ENV = "~\/.bash_functions"$/;"	v
+-127,8 +127,6	tmux-truecolor.diff	/^@@ -127,8 +127,6 @@ void	input_csi_dispatch_rm_private(struct input_ctx *);$/;"	h	modifiedFile:a/input.c
+-1460,7 +1461,16	tmux-truecolor.diff	/^@@ -1460,7 +1461,16 @@ tty_colours(struct tty *tty, const struct grid_cell *gc)$/;"	h	modifiedFile:a/tty.c
+-1469,8 +1479,8	tmux-truecolor.diff	/^@@ -1469,8 +1479,8 @@ tty_colours(struct tty *tty, const struct grid_cell *gc)$/;"	h	modifiedFile:a/tty.c
+-1484,39 +1494,49	tmux-truecolor.diff	/^@@ -1484,39 +1494,49 @@ tty_colours(struct tty *tty, const struct grid_cell *gc)$/;"	h	modifiedFile:a/tty.c
+-1525,20 +1545,15	tmux-truecolor.diff	/^@@ -1525,20 +1545,15 @@ tty_check_fg(struct tty *tty, struct grid_cell *gc)$/;"	h	modifiedFile:a/tty.c
+-1547,6 +1562,7	tmux-truecolor.diff	/^@@ -1547,6 +1562,7 @@ tty_check_fg(struct tty *tty, struct grid_cell *gc)$/;"	h	modifiedFile:a/tty.c
+-1558,10 +1574,8	tmux-truecolor.diff	/^@@ -1558,10 +1574,8 @@ tty_check_bg(struct tty *tty, struct grid_cell *gc)$/;"	h	modifiedFile:a/tty.c
+-1570,34 +1584,49	tmux-truecolor.diff	/^@@ -1570,34 +1584,49 @@ tty_check_bg(struct tty *tty, struct grid_cell *gc)$/;"	h	modifiedFile:a/tty.c
+-1605,50 +1634,60	tmux-truecolor.diff	/^@@ -1605,50 +1634,60 @@ tty_colours_fg(struct tty *tty, const struct grid_cell *gc)$/;"	h	modifiedFile:a/tty.c
+-1612,71 +1608,13	tmux-truecolor.diff	/^@@ -1612,71 +1608,13 @@ input_csi_dispatch_winops(struct input_ctx *ictx)$/;"	h	modifiedFile:a/input.c
+-1681,6 +1720,22	tmux-truecolor.diff	/^@@ -1681,6 +1720,22 @@ tty_try_256(struct tty *tty, u_char colour, const char *type)$/;"	h	modifiedFile:a/tty.c
+-1688,14 +1626,52	tmux-truecolor.diff	/^@@ -1688,14 +1626,52 @@ input_csi_dispatch_sgr(struct input_ctx *ictx)$/;"	h	modifiedFile:a/input.c
+-1749,10 +1725,12	tmux-truecolor.diff	/^@@ -1749,10 +1725,12 @@ input_csi_dispatch_sgr(struct input_ctx *ictx)$/;"	h	modifiedFile:a/input.c
+-1764,10 +1742,12	tmux-truecolor.diff	/^@@ -1764,10 +1742,12 @@ input_csi_dispatch_sgr(struct input_ctx *ictx)$/;"	h	modifiedFile:a/input.c
+-1790,6 +1770,7	tmux-truecolor.diff	/^@@ -1790,6 +1770,7 @@ input_csi_dispatch_sgr(struct input_ctx *ictx)$/;"	h	modifiedFile:a/input.c
+-1930,7 +1940,6	tmux-truecolor.diff	/^@@ -1930,7 +1940,6 @@ char	*xterm_keys_lookup(int);$/;"	h	modifiedFile:a/tmux.h
+-29,305 +29,85	tmux-truecolor.diff	/^@@ -29,305 +29,85 @@$/;"	h	modifiedFile:a/colour.c
+-36,6 +36,7	tmux-truecolor.diff	/^@@ -36,6 +36,7 @@ void	tty_error_callback(struct bufferevent *, short, void *);$/;"	h	modifiedFile:a/tty.c
+-361,7 +141,7	tmux-truecolor.diff	/^@@ -361,7 +141,7 @@ colour_tostring(int c)$/;"	h	modifiedFile:a/colour.c
+-408,20 +188,20	tmux-truecolor.diff	/^@@ -408,20 +188,20 @@ colour_tostring(int c)$/;"	h	modifiedFile:a/colour.c
+-431,39 +211,47	tmux-truecolor.diff	/^@@ -431,39 +211,47 @@ colour_fromstring(const char *s)$/;"	h	modifiedFile:a/colour.c
+-505,8 +503,7	tmux-truecolor.diff	/^@@ -505,8 +503,7 @@ const struct input_transition input_state_csi_enter_table[] = {$/;"	h	modifiedFile:a/input.c
+-523,8 +520,7	tmux-truecolor.diff	/^@@ -523,8 +520,7 @@ const struct input_transition input_state_csi_parameter_table[] = {$/;"	h	modifiedFile:a/input.c
+-631,9 +631,17	tmux-truecolor.diff	/^@@ -631,9 +631,17 @@ struct utf8_data {$/;"	h	modifiedFile:a/tmux.h
+-644,6 +652,8	tmux-truecolor.diff	/^@@ -644,6 +652,8 @@ struct grid_cell {$/;"	h	modifiedFile:a/tmux.h
+-918,7 +914,7	tmux-truecolor.diff	/^@@ -918,7 +914,7 @@ input_split(struct input_ctx *ictx)$/;"	h	modifiedFile:a/input.c
+0	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+0	coc-settings.json	/^    "rootPatterns": [".ccls", "compile_commands.json", ".git\/", ".hg\/"],$/;"	s	array:languageserver.ccls.rootPatterns
+0	vim-coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+0	vim-coc-settings.json	/^    "rootPatterns": [".ccls", "compile_commands.json", ".git\/", ".hg\/"],$/;"	s	array:languageserver.ccls.rootPatterns
+1	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+1	coc-settings.json	/^    "rootPatterns": [".ccls", "compile_commands.json", ".git\/", ".hg\/"],$/;"	s	array:languageserver.ccls.rootPatterns
+1	vim-coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+1	vim-coc-settings.json	/^    "rootPatterns": [".ccls", "compile_commands.json", ".git\/", ".hg\/"],$/;"	s	array:languageserver.ccls.rootPatterns
+2	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+2	coc-settings.json	/^    "rootPatterns": [".ccls", "compile_commands.json", ".git\/", ".hg\/"],$/;"	s	array:languageserver.ccls.rootPatterns
+2	vim-coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+2	vim-coc-settings.json	/^    "rootPatterns": [".ccls", "compile_commands.json", ".git\/", ".hg\/"],$/;"	s	array:languageserver.ccls.rootPatterns
+3	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+3	coc-settings.json	/^    "rootPatterns": [".ccls", "compile_commands.json", ".git\/", ".hg\/"],$/;"	s	array:languageserver.ccls.rootPatterns
+3	vim-coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+3	vim-coc-settings.json	/^    "rootPatterns": [".ccls", "compile_commands.json", ".git\/", ".hg\/"],$/;"	s	array:languageserver.ccls.rootPatterns
+4	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+4	vim-coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+5	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+5	vim-coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	s	array:languageserver.ccls.filetypes
+<A-3>	.vimrc	/^map <A-3> :tabnext<CR>$/;"	m
+<A-4>	.vimrc	/^map <A-4> :tabprevious<CR>$/;"	m
+<F1>	.vimrc	/^map <F1> :e $MYVIMRC<CR>$/;"	m
+<F3>	.vimrc	/^map <F3> :cn<CR>$/;"	m
+<F4>	.vimrc	/^map <F4> :cp<CR>$/;"	m
+<F7>	.vimrc	/^map <F7> :NERDTreeTabsToggle<CR>$/;"	m
+<Leader>h	.vimrc	/^nmap <silent> <Leader>h :Ag <C-R><C-W><CR>$/;"	m
+<S-Tab>	.vimrc	/^inoremap <expr> <S-Tab> pumvisible() ? "\\<C-p>" : "\\<S-Tab>"$/;"	m
+<Tab>	.vimrc	/^inoremap <expr> <Tab> pumvisible() ? "\\<C-n>" : "\\<Tab>"$/;"	m
+<cr>	.vimrc	/^inoremap <expr> <cr> pumvisible() ? "\\<C-y>" : "\\<cr>"$/;"	m
+<leader>-	.vimrc	/^nmap <leader>- :resize -5<cr>$/;"	m
+<leader>1	.vimrc	/^nmap <leader>1 :e $MYVIMRC<CR>$/;"	m
+<leader>2	.vimrc	/^nmap <leader>2 :NERDTreeToggle<CR>$/;"	m
+<leader>5	.vimrc	/^nmap <leader>5 :syntax sync fromstart<CR>$/;"	m
+<leader>=	.vimrc	/^nmap <leader>= :resize +5<cr>$/;"	m
+<leader>Q	.vimrc	/^nmap <leader>Q :cclose<CR>$/;"	m
+<leader>`	.vimrc	/^nmap <leader>` :set fullscreen<CR>$/;"	m
+<leader>a	.vimrc	/^nmap <leader>a :Ag<cr>$/;"	m
+<leader>b	.vimrc	/^nmap <leader>b :Buffers<cr>$/;"	m
+<leader>c	.vimrc	/^nmap <leader>c :!ts C-c<CR> <CR>$/;"	m
+<leader>c	.vimrc	/^nmap <leader>c :!ts C-c<CR>$/;"	m
+<leader>d	.vimrc	/^nmap <leader>d :BTags<cr>$/;"	m
+<leader>e	.vimrc	/^nmap <leader>e :!ts python '%:t' 2>\/dev\/null<CR> <CR>$/;"	m
+<leader>f	.vimrc	/^nmap <leader>f :Files<cr>$/;"	m
+<leader>g	.vimrc	/^nmap <leader>g :ProjectFiles<cr>$/;"	m
+<leader>q	.vimrc	/^nmap <leader>q :bd!<CR>$/;"	m
+<leader>r	.vimrc	/^nmap <leader>r :Rooter<CR>$/;"	m
+<leader>s	.vimrc	/^nmap <leader>s :Tags<cr>$/;"	m
+<leader>t	.vimrc	/^nmap <leader>t :History<cr>		$/;"	m
+<leader>v	.vimrc	/^nmap <leader>v :CtrlPBuffer<cr>$/;"	m
+<leader>v	.vimrc	/^nmap <leader>v :Marks<cr>$/;"	m
+<leader>w	.vimrc	/^nmap <leader>w :!ts cargo build --release <CR> <CR>$/;"	m
+<leader>x	.vimrc	/^nmap <leader>x :Ag<cr>$/;"	m
+<leader>z	.vimrc	/^nmap <leader>z :cd %:p:h<cr> :pwd<cr>$/;"	m
+Ag	.vimrc	/^command! -bang -nargs=* Ag call fzf#vim#ag(<q-args>, ' --path-to-ignore ~\/.ignore', {'options':/;"	c
+AirlineWrapper	.vimrc	/^function! AirlineWrapper(ext)$/;"	f
+Array,Arrays	.ctags	/^--regex-javascript=\/^[ \\t]*(var|let|const)[ \\t]+([A-Za-z0-9_$]+)[ \\t]*=[ \\t]*\\[\/\\2\/A,Ar/;"	k	langdef:css
+AutoRestoreWinView	.vimrc	/^function! AutoRestoreWinView()$/;"	f
+AutoSaveWinView	.vimrc	/^function! AutoSaveWinView()$/;"	f
+Class,Classes	.ctags	/^--regex-javascript=\/^[ \\t]*(var|let|const)[ \\t]+([A-Z][A-Za-z0-9_$]+)[ \\t]*=[ \\t]*function\//;"	k	langdef:css
+Class,Classes	.ctags	/^--regex-javascript=\/^[ \\t]*class[ \\t]+([A-Za-z0-9_$]+)\/\\1\/C,Class,Classes\/$/;"	k	langdef:css
+Export,Exports	.ctags	/^--regex-javascript=\/^[ \\t]*export[ \\t]?(var|let|const)[ \\t]+([A_Za-z0-9_$]+)[ \\t]*[^,]+,[ \\/;"	k	langdef:css
+Export,Exports	.ctags	/^--regex-javascript=\/^[ \\t]*export[ \\t]?(var|let|const)[ \\t]+([A_Za-z0-9_$]+)\/\\2\/E,Export,/;"	k	langdef:css
+Export,Exports	.ctags	/^--regex-javascript=\/^[ \\t]*export[ \\t]?({[ \\t]*)*([A-Za-z0-9_\\*]*[ \\t]as[ \\t])([A-Za-z0-9/;"	k	langdef:css
+Export,Exports	.ctags	/^--regex-javascript=\/^[ \\t]*export[ \\t]?({[ \\t]*)*([A-Za-z0-9_\\*]*[ \\t]as[ \\t])*([A-Za-z0-/;"	k	langdef:css
+Function,Functions	.ctags	/^--regex-javascript=\/^[ \\t]*(var|let|const)[ \\t]+([a-z][A-Za-z0-9_$]+)[ \\t]*=[ \\t]*\\([^\\*]/;"	k	langdef:css
+Function,Functions	.ctags	/^--regex-javascript=\/^[ \\t]*(var|let|const)[ \\t]+([a-z][A-Za-z0-9_$]+)[ \\t]*=[ \\t]*function[/;"	k	langdef:css
+Function,Functions	.ctags	/^--regex-javascript=\/^[ \\t]*[\\(]function[ \\t]*([A-Za-z0-9_$]+)[ \\t\\(]\/\\1\/F,Function,Func/;"	k	langdef:css
+Function,Functions	.ctags	/^--regex-javascript=\/^[ \\t]*function[ \\t]*([A-Za-z0-9_$]+)[ \\t\\(]\/\\1\/F,Function,Functions/;"	k	langdef:css
+Generator,Generators	.ctags	/^--regex-javascript=\/^[ \\t]*(\\*[ \\t])([A-Za-z0-9_$]+)[ \\t]*\\(.*\\)[ \\t]*{\/\\2\/G,Generato/;"	k	langdef:css
+Generator,Generators	.ctags	/^--regex-javascript=\/^[ \\t]*function[ \\t]*\\*[ \\t]*([A-Za-z0-9_$]+)\/\\1\/G,Generator,Generat/;"	k	langdef:css
+Generator,Genrators	.ctags	/^--regex-javascript=\/^[ \\t]*(var|let|const)[ \\t]+([a-z][A-Za-z0-9_$]+)[ \\t]*=[ \\t]*function(/;"	k	langdef:css
+Import,Imports	.ctags	/^--regex-javascript=\/^[ \\t]*import[ \\t]?({[ \\t]*)*([A-Za-z0-9_\\*]*[ \\t]as[ \\t])([A-Za-z0-9/;"	k	langdef:css
+Import,Imports	.ctags	/^--regex-javascript=\/^[ \\t]*import[ \\t]?({[ \\t]*)*([A-Za-z0-9_\\*]*[ \\t]as[ \\t])*([A-Za-z0-/;"	k	langdef:css
+Method,Methods	.ctags	/^--regex-javascript=\/^[ \\t]*([A-Za-z0-9_$]+)[ \\t]*[:=][ \\t]*[\\(]*function[ \\t]*\\(\/\\1\/M,/;"	k	langdef:css
+Method,Methods	.ctags	/^--regex-javascript=\/^[ \\t]*([A-Za-z0-9_$]+)\\(.*\\)[ \\t]*{\/\\1\/M,Method,Methods\/$/;"	k	langdef:css
+Method,Methods	.ctags	/^--regex-javascript=\/^[ \\t]*static[ \\t]+([A-Za-z0-9_$]+)[ \\t]*\\(\/\\1\/M,Method,Methods\/$/;"	k	langdef:css
+Method,Methods	.ctags	/^--regex-javascript=\/^[ \\t]*this\\.([A-Za-z0-9_$]+)[ \\t]*=.*{$\/\\1\/M,Method,Methods\/$/;"	k	langdef:css
+Object,Objects	.ctags	/^--regex-javascript=\/^[ \\t]*(var|let|const)[ \\t]+([A-Za-z0-9_$]+)[ \\t]*=[ \\t]*{\/\\2\/O,Obje/;"	k	langdef:css
+ProjectFiles	.vimrc	/^command! ProjectFiles execute 'Files' s:find_git_root()$/;"	c
+Property,Properties	.ctags	/^--regex-javascript=\/^[ \\t]*(this\\.)*([A-Za-z0-9_$]+)[ \\t]*[:=].*[,;]*[^{]$\/\\2\/P,Property,/;"	k	langdef:css
+Rust	.ctags	/^--langdef=Rust$/;"	l
+Tag,Tags	.ctags	/^--regex-javascript=\/\\\/\\\/[ \\t]*(FIXME|TODO|BUG|NOBUG|\\?\\?\\?|\\!\\!\\!|HACK|XXX)[ \\t]*\\/;"	k	langdef:css
+Variable,Variables	.ctags	/^--regex-javascript=\/^[ \\t]*(var|let|const)[ \\t]+([A-Za-z0-9_$]+)[ \\t]*=[ \\t]*[^\\[{]*;$\/\\/;"	k	langdef:css
+a/colour.c	tmux-truecolor.diff	/^--- a\/colour.c$/;"	m
+a/input.c	tmux-truecolor.diff	/^--- a\/input.c$/;"	m
+a/tmux.h	tmux-truecolor.diff	/^--- a\/tmux.h$/;"	m
+a/tty.c	tmux-truecolor.diff	/^--- a\/tty.c$/;"	m
+autorestart	supervisor/flask-server.conf	/^autorestart=false$/;"	k	section:program:flask-server
+autorestart	supervisor/motion.conf	/^autorestart = true$/;"	k	section:program:motion
+autorestart	supervisor/octoprint.conf	/^autorestart=false$/;"	k	section:program:octoprint
+autostart	supervisor/flask-server.conf	/^autostart=true$/;"	k	section:program:flask-server
+autostart	supervisor/motion.conf	/^autostart = true$/;"	k	section:program:motion
+autostart	supervisor/octoprint.conf	/^autostart=true$/;"	k	section:program:octoprint
+cache	coc-settings.json	/^        "cache": {$/;"	o	object:languageserver.ccls.initializationOptions
+cache	vim-coc-settings.json	/^        "cache": {$/;"	o	object:languageserver.ccls.initializationOptions
+ccls	coc-settings.json	/^  "ccls": {$/;"	o	object:languageserver
+ccls	vim-coc-settings.json	/^  "ccls": {$/;"	o	object:languageserver
+class,classes	.ctags	/^--regex-css=\/^[ \\t]*\\.([A-Za-z0-9_-]+)\/.\\1\/c,class,classes\/$/;"	k	langdef:css
+command	coc-settings.json	/^    "command": "ccls",$/;"	s	object:languageserver.ccls
+command	supervisor/flask-server.conf	/^command = \/home\/pi\/.virtualenvs\/blog\/bin\/python \/home\/pi\/.virtualenvs\/blog\/src\/flask/;"	k	section:program:flask-server
+command	supervisor/motion.conf	/^command = motion -d 5 -l \/home\/pi\/motion.log$/;"	k	section:program:motion
+command	supervisor/octoprint.conf	/^command = \/home\/pi\/temp\/OctoPrint\/venv\/bin\/octoprint serve$/;"	k	section:program:octoprint
+command	vim-coc-settings.json	/^    "command": "ccls",$/;"	s	object:languageserver.ccls
+consts,static constants	.ctags	/^--regex-Rust=\/^[ \\t]*(pub[ \\t]+)?(static|const)[ \\t]+(mut[ \\t]+)?([a-zA-Z0-9_]+)\/\\4\/c,co/;"	k	langdef:Rust
+css	.ctags	/^--langdef=css$/;"	l
+directory	coc-settings.json	/^          "directory": "\/tmp\/ccls"$/;"	s	object:languageserver.ccls.initializationOptions.cache
+directory	vim-coc-settings.json	/^          "directory": "\/tmp\/ccls"$/;"	s	object:languageserver.ccls.initializationOptions.cache
+dotfiles-pi31	README.md	/^# dotfiles-pi31$/;"	c
+enum,enumeration names	.ctags	/^--regex-Rust=\/^[ \\t]*(pub[ \\t]+)?enum[ \\t]+([a-zA-Z0-9_]+)\/\\2\/g,enum,enumeration names\/$/;"	k	langdef:Rust
+export,Exports	.ctags	/^--regex-javascript=\/^[ \\t]*export[ \\t]?({[ \\t]*)*([A-Za-z0-9_\\*]*[ \\t]as[ \\t])*([A-Za-z0-/;"	k	langdef:css
+filetypes	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	a	object:languageserver.ccls
+filetypes	vim-coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],$/;"	a	object:languageserver.ccls
+functions,function definitions	.ctags	/^--regex-Rust=\/^[ \\t]*(#\\[[^\\]]\\][ \\t]*)*(pub[ \\t]+)?(extern[ \\t]+)?("[^"]+"[ \\t]+)?(uns/;"	k	langdef:Rust
+g:airline#extensions#hunks#enabled	.vimrc	/^let g:airline#extensions#hunks#enabled = 0$/;"	v
+g:airline#extensions#tabline#enabled	.vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	v
+g:airline#extensions#tabline#fnamemod	.vimrc	/^let g:airline#extensions#tabline#fnamemod = ':t'$/;"	v
+g:airline#extensions#virtualenv#enabled	.vimrc	/^let g:airline#extensions#virtualenv#enabled = 0$/;"	v
+g:airline#extensions#whitespace#enabled	.vimrc	/^let g:airline#extensions#whitespace#enabled = 0$/;"	v
+g:airline_mode_map	.vimrc	/^let g:airline_mode_map = {$/;"	v
+g:airline_powerline_fonts	.vimrc	/^let g:airline_powerline_fonts = 1$/;"	v
+g:airline_section_c	.vimrc	/^let g:airline_section_c = '%f'$/;"	v
+g:airline_section_c	.vimrc	/^let g:airline_section_c = '%t'$/;"	v
+g:airline_section_error	.vimrc	/^let g:airline_section_error=''$/;"	v
+g:airline_section_statistics	.vimrc	/^let g:airline_section_statistics=''$/;"	v
+g:airline_section_warning	.vimrc	/^let g:airline_section_warning=''$/;"	v
+g:airline_theme	.vimrc	/^let g:airline_theme='molokai'$/;"	v
+g:ctrlp_custom_ignore	.vimrc	/^let g:ctrlp_custom_ignore = {$/;"	v
+g:ctrlp_match_window	.vimrc	/^let g:ctrlp_match_window = 'max:12'$/;"	v
+g:deoplete#enable_at_startup	.vimrc	/^let g:deoplete#enable_at_startup = 0$/;"	v
+g:fzf_history_dir	.vimrc	/^let g:fzf_history_dir = '~\/.local\/share\/fzf-history'$/;"	v
+g:ncm2_pyclang#clang_path	.vimrc	/^let g:ncm2_pyclang#clang_path = '\/usr\/local\/clang+llvm-7.0.1-armv7a-linux-gnueabihf\/bin'$/;"	v
+g:ncm2_pyclang#library_path	.vimrc	/^let g:ncm2_pyclang#library_path = '\/usr\/local\/clang+llvm-7.0.1-armv7a-linux-gnueabihf\/lib\/l/;"	v
+g:python3_host_prog	.vimrc	/^let g:python3_host_prog='\/home\/pi\/.pyenv\/shims\/python3'$/;"	v
+g:rooter_manual_only	.vimrc	/^let g:rooter_manual_only = 1$/;"	v
+g:simple_todo_map_normal_mode_keys	.vimrc	/^let g:simple_todo_map_normal_mode_keys = 0$/;"	v
+g:user_emmet_install_global	.vimrc	/^let g:user_emmet_install_global = 0$/;"	v
+id,ids	.ctags	/^--regex-css=\/^[ \\t]*#([A-Za-z0-9_-]+)\/#\\1\/i,id,ids\/$/;"	k	langdef:css
+impls,trait implementations	.ctags	/^--regex-Rust=\/^[ \\t]*(pub[ \\t]+)?(unsafe[ \\t]+)?impl([ \\t\\n]*<[^>]*>)?[ \\t]+(([a-zA-Z0-9_/;"	k	langdef:Rust
+initializationOptions	coc-settings.json	/^    "initializationOptions": {$/;"	o	object:languageserver.ccls
+initializationOptions	vim-coc-settings.json	/^    "initializationOptions": {$/;"	o	object:languageserver.ccls
+is_vim	.tmux.conf	/^is_vim='echo "#{pane_current_command}" | grep -iqE "(^|\\\/)g?(view|n?vim|ssh?)(diff)?$"'$/;"	k
+join pane from	.tmux.conf	/^bind-key i command-prompt -p "join pane from:"  "join-pane -s '%%'"$/;"	k
+key	.tmux.conf	/^bind-key = resize-pane -U 2$/;"	k
+languageserver	coc-settings.json	/^	"languageserver": {$/;"	o
+languageserver	vim-coc-settings.json	/^	"languageserver": {$/;"	o
+macros,macro definitions	.ctags	/^--regex-Rust=\/^[ \\t]*macro_rules![ \\t]+([a-zA-Z0-9_]+)\/\\1\/d,macros,macro definitions\/$/;"	k	langdef:Rust
+main	usbreset.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+media,medias	.ctags	/^--regex-css=\/^[ \\t]*@media\\s+([A-Za-z0-9_-]+)\/\\1\/m,media,medias\/$/;"	k	langdef:css
+modules,module names	.ctags	/^--regex-Rust=\/^[ \\t]*(pub[ \\t]+)?mod[ \\t]+([a-zA-Z0-9_]+)\/\\2\/m,modules,module names\/$/;"	k	langdef:Rust
+program:flask-server	supervisor/flask-server.conf	/^[program:flask-server]$/;"	s
+program:motion	supervisor/motion.conf	/^[program:motion]$/;"	s
+program:octoprint	supervisor/octoprint.conf	/^[program:octoprint]$/;"	s
+rootPatterns	coc-settings.json	/^    "rootPatterns": [".ccls", "compile_commands.json", ".git\/", ".hg\/"],$/;"	a	object:languageserver.ccls
+rootPatterns	vim-coc-settings.json	/^    "rootPatterns": [".ccls", "compile_commands.json", ".git\/", ".hg\/"],$/;"	a	object:languageserver.ccls
+s:find_git_root	.vimrc	/^function! s:find_git_root()$/;"	f
+send pane to	.tmux.conf	/^bind-key s command-prompt -p "send pane to:"  "join-pane -t '%%'"$/;"	k
+structure names	.ctags	/^--regex-Rust=\/^[ \\t]*(pub[ \\t]+)?struct[ \\t]+([a-zA-Z0-9_]+)\/\\2\/s,structure names\/$/;"	k	langdef:Rust
+style bg	.tmux.conf	/^set-window-option -g window-status-current-style bg=red$/;"	k
+tag,tags	.ctags	/^--regex-css=\/^[ \\t]*(([A-Za-z0-9_-]+[ \\t\\n,]+)+)\\{\/\\1\/t,tag,tags\/$/;"	k	langdef:css
+traits,traits	.ctags	/^--regex-Rust=\/^[ \\t]*(pub[ \\t]+)?(unsafe[ \\t]+)?trait[ \\t]+([a-zA-Z0-9_]+)\/\\3\/t,traits,t/;"	k	langdef:Rust
+types,type definitions	.ctags	/^--regex-Rust=\/^[ \\t]*(pub[ \\t]+)?type[ \\t]+([a-zA-Z0-9_]+)\/\\2\/T,types,type definitions\/$/;"	k	langdef:Rust
+user	supervisor/flask-server.conf	/^user = pi$/;"	k	section:program:flask-server
+user	supervisor/octoprint.conf	/^user = pi$/;"	k	section:program:octoprint
+var,variables	.ctags	/^--regex-css=\/^[ \\t]*@([A-Za-z0-9_-]+)\/@\\1\/v,var,variables\/$/;"	k	langdef:css
